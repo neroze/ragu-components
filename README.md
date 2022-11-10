@@ -22,7 +22,9 @@ A approach for sharing shared components in microfrontend pattern.
   ```
   
 - consume shared componets 
-  --  <ragu-framework src="http://localhost:3100/preview/my-mfe?name=World"/>
+  ``` 
+      <ragu-framework src="http://localhost:3100/preview/my-mfe?name=World"/>
+  ```
 
 Host shared components
 ```
