@@ -12,7 +12,7 @@ Host static app
 ```
 $ python -m SimpleHTTPServer
 ```
-hr
+---
 
 ## How it works
 - Host shared components with ragu serice
