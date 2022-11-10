@@ -1,6 +1,19 @@
 # ragu-components
 A approach for sharing shared components in microfrontend pattern.
 
+## Qick start
+
+Host shared components
+```
+$ cd shared-components; npx ragu-cli dev --directory ./src;
+```
+
+Host static app
+```
+$ python -m SimpleHTTPServer
+```
+hr
+
 ## How it works
 - Host shared components with ragu serice
   ```
@@ -25,14 +38,4 @@ A approach for sharing shared components in microfrontend pattern.
   ``` 
       <ragu-framework src="http://localhost:3100/preview/my-mfe?name=World"/>
   ```
-
-Host shared components
-```
-$ cd shared-components; npx ragu-cli dev --directory ./src;
-```
-
-Host static app
-```
-$ python -m SimpleHTTPServer
-```
 
