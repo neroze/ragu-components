@@ -1,4 +1,29 @@
 # ragu-components
+A approach for sharing shared components in microfrontend pattern.
+
+## How it works
+- Host shared components with ragu serice
+  ```
+   $ npx ragu-cli dev --directory ./src
+   
+    📦 your build is ready!
+
+    Output path: /Users/nirajmaharjan/sandbox/my-ragu-mf/shared-components/.ragu-components
+    Base URL: http://localhost:3100
+
+    🗺 Component Routes:
+    ▸ my-mfe: http://localhost:3100/components/my-mfe
+    ▸ my-mfe2: http://localhost:3100/components/my-mfe2
+
+
+    🔭 Preview Routes:
+    ▸ my-mfe: http://localhost:3100/preview/my-mfe
+    ▸ my-mfe2: http://localhost:3100/preview/my-mfe2
+  ```
+  
+- consume shared componets 
+  --  <ragu-framework src="http://localhost:3100/preview/my-mfe?name=World"/>
+
 Host shared components
 ```
 $ cd shared-components; npx ragu-cli dev --directory ./src;
