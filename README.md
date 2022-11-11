@@ -5,7 +5,7 @@ Simple approach for sharing shared components in microfrontend pattern.
 
 Host shared components
 ```
-$ cd shared-components; npx ragu-cli dev --directory ./src;
+$ cd shared-components; yarn; npx ragu-cli dev --directory ./src;
 ```
 
 Host static app
