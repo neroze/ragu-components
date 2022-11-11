@@ -1,5 +1,5 @@
 # ragu-components
-A approach for sharing shared components in microfrontend pattern.
+Simple approach for sharing shared components in microfrontend pattern.
 
 ## Qick start
 
